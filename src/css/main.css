@@ -1,0 +1,29 @@
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.article {
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px !important;
+}
+
+.article > img {
+    border-radius: 10px !important;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    font-family: Montserrat;
+}
+
+#article_image {
+    width: 640px;
+}
