@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
 
 class NavBar extends React.Component {
@@ -40,11 +39,11 @@ class NavBar extends React.Component {
         return <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">Ender</Navbar.Brand>
+                    <Navbar.Brand href="/">Linuxoid</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Главная</Nav.Link>
                         <Nav.Link href="/news">Новости</Nav.Link>
-                        <Nav.Link className="disabled" href="/forum">Форум</Nav.Link>
+                        <Nav.Link href="/forum">Форум</Nav.Link>
                     </Nav>
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text id="login_container">

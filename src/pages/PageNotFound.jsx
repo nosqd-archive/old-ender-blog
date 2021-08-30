@@ -1,5 +1,4 @@
 import React from 'react';
-import Article from "../components/Article";
 
 class MainPage extends React.Component {
     render() {

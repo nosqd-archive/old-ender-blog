@@ -1,5 +1,5 @@
 import React from 'react';
-import CommentForArticle from "../components/CommentForArticle";
+import CommentForArticle from "../components/CommentForArticle.jsx";
 import {Spinner} from "react-bootstrap";
 
 class ArticlePage extends React.Component {

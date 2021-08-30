@@ -1,6 +1,5 @@
 import React from 'react';
-import Article from "../components/Article";
-import ReactDOM from 'react-dom';
+import Article from "../components/Article.jsx";
 import {Spinner} from "react-bootstrap";
 
 class MainPage extends React.Component {
@@ -37,9 +36,8 @@ class MainPage extends React.Component {
         const { loading } = this.state;
         return <div>
             <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 className="display-4 fw-normal">Я Дмитрий.</h1>
-                <p className="fs-5 text-muted">Мне 10 лет. Я занимаюсь программированием. С 7 лет,
-                    пишу на Python (Django, FastAPI), Node.JS (React), Java (Minecraft API, Discord JDA), Kotlin (Discord JDA)</p>
+                <h1 className="display-4 fw-normal">Добро пожаловать на портал Линуксоид</h1>
+                <p className="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dignissimos doloribus explicabo ipsum laborum magni nihil, odit omnis quia reiciendis similique suscipit vitae. Aspernatur ex neque obcaecati tempora. Eius, numquam?</p>
             </div>
             <div className="container">
                 <h1>Последние новости {loading ? <Spinner animation="border" variant="dark" /> : ""}</h1>

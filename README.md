@@ -1,2 +1,2 @@
-# PortfolioFrontend
-FrontEnd для моего портфолио
+# Linuxoid FrontEnd
+Фронт энд для сайта Linuxoid

@@ -1,6 +1,5 @@
 import React from 'react';
-import Article from "../components/Article";
-import ReactDOM from "react-dom";
+import Article from "../components/Article.jsx";
 import {Spinner} from "react-bootstrap";
 
 class NewsPage extends React.Component {
